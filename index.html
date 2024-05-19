@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da Ea</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <h1> EA</h1>
+        <h2> Conecte-se à sua Conta EA </h2>
+        <div class="img">
+            <img class="estilo" src="imagem/icons8-google-logo-50.png" alt=" icons8-google-logo-50"> 
+            <img class="estilo" src="imagem/icons8-facebook-novo-50-1.png" alt="facabook">
+            <img class="estilo" src="imagem/icons8-mac-os-50.png" alt="aple">
+            <img class="estilo" src="imagem/icons8-steam-50.png" alt="steam">
+            <img class="estilo" src="imagem/icons8-xbox-50.png" alt="xbox">
+            <img class="estilo" src="imagem/icons8-playstation-50.png" alt="Playstation">
+        </div>
+        
+        <p>ou</p>
+        <form action="cadastro.php" method="post">
+
+         <label  for="iemail"> E-mail ou ID da  EA 
+         </label> <br>    
+         <input class="caixa" type="email" name="email" id="iemail" required placeholder="Digite seu e-mail oi ID da EA">
+
+         <label  for="isenha">Senha</label> <br>
+         <input class="caixa" type="password" name="Senha" id="isenha" required placeholder="Digite a senha" >
+
+        <input  type="checkbox" name="conectado" id="iconectado">
+        <label for="iconectado"> Mantenha conectado   
+        </label>
+
+        <input class="chec" type="checkbox" name="conectar" id="iconectar">
+        <label for="iconectar">Conectar como ivisivel
+        </label>
+
+        <input  class="chec" type="submit" value="Conectar">
+        </form>
+        <div> 
+            <a href="#"> Conecte-se com seu número de telefone</a>
+            <a href="#"> Esqueceu sua senha ou precisa criar uma nova?</a>
+        </div>
+        <div>
+            <a href="#">CRIAR CONTA </a>
+        </div>
+    </main>
+</body>
+</html>

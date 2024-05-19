@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+ }
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(3, 53, 99);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+h1{
+    background-color: white;
+    color: rgb(16, 0, 56) ;
+    border-radius: 50%;
+    border: 1px solid rgb(3, 53, 99) ;
+    text-align: center;
+    width: 50px;
+    margin: 20px;
+    padding: 5px; 
+}
+h2{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+div.img{ 
+    margin: 30px;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+} 
+img.estilo{
+    padding: 4px;
+    background-color: white;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;  
+}
+p{
+    text-align: center;
+    color: darkgray;
+    margin: 30px;
+}
+form{
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black; 
+    width: 500px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap ;
+    justify-content:space-around;  
+}
+input.caixa{
+    padding: 8px;
+    width: 80%; 
+    align-items:flex-start;
+}
+input.chec{
+    
+}
