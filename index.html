@@ -21,24 +21,30 @@
         
         <p>ou</p>
         <form action="cadastro.php" method="post">
+          
+            <div id="label">
+                <label  for="iemail"> E-mail ou ID da  EA 
+                </label> <br>    
+                <input class="caixa" type="email" name="email" id="iemail" required placeholder="Digite seu e-mail oi ID da EA">
 
-         <label  for="iemail"> E-mail ou ID da  EA 
-         </label> <br>    
-         <input class="caixa" type="email" name="email" id="iemail" required placeholder="Digite seu e-mail oi ID da EA">
+                <label  for="isenha">Senha</label> <br>
+                <input class="caixa" type="password" name="Senha" id="isenha" required placeholder="Digite a senha" >
+            </div> 
+         
+          
+                <input class="chec"  type="checkbox" name="conectado" id="iconectado">
+                <label for="iconectado"> Mantenha conectado   
+                </label>
 
-         <label  for="isenha">Senha</label> <br>
-         <input class="caixa" type="password" name="Senha" id="isenha" required placeholder="Digite a senha" >
+                <input class="chec" type="checkbox" name="conectar" id="iconectar">
+                <label for="iconectar">Conectar como ivisivel
+                </label>
 
-        <input  type="checkbox" name="conectado" id="iconectado">
-        <label for="iconectado"> Mantenha conectado   
-        </label>
-
-        <input class="chec" type="checkbox" name="conectar" id="iconectar">
-        <label for="iconectar">Conectar como ivisivel
-        </label>
-
-        <input  class="chec" type="submit" value="Conectar">
+                <input id="botao" class="chec" type="submit" value="Conectar"> 
+           
         </form>
+       
+        
         <div> 
             <a href="#"> Conecte-se com seu número de telefone</a>
             <a href="#"> Esqueceu sua senha ou precisa criar uma nova?</a>

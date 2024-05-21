@@ -53,19 +53,45 @@ p{
 form{
     margin: 30px;
     padding: 10px;
-    border: 1px solid black; 
     width: 500px;
     height: 300px;
     color: white;
     display: flex;
     flex-flow: column nowrap ;
-    justify-content:space-around;  
+    justify-content:flex-end;
+    align-items:flex-end;  
+}
+div#label{
+    margin: 10px;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-flow: column nowrap;   
+    justify-content: flex-start; 
 }
 input.caixa{
-    padding: 8px;
-    width: 80%; 
-    align-items:flex-start;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
 }
 input.chec{
+    margin: 10px;
+    padding: 3px;
+    border:none;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
     
+
 }
+input#botao{
+    width: 90%;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
