@@ -69,23 +69,17 @@ div#label{
     flex-flow: column nowrap;   
     justify-content: flex-start; 
 }
+div#chec{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: flex-start;
+}
 input.caixa{
     padding: 10px;
     margin: 10px;
     width: 90%;
     border-radius: 20px;
     border: none;
-}
-input.chec{
-    margin: 10px;
-    padding: 3px;
-    border:none;
-    display: flex;
-    flex-flow: row-reverse nowrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-    
-
 }
 input#botao{
     width: 90%;
