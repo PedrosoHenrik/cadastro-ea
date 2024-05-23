@@ -63,16 +63,19 @@ form{
 }
 div#label{
     margin: 10px;
-    width: 500px;
+    width: 400px;
     height: 150px;
     display: flex;
     flex-flow: column nowrap;   
     justify-content: flex-start; 
 }
 div#chec{
+    margin: 10px;
+    width: 400px;
+    height: 150px;
     display: flex;
-    flex-flow:row nowrap;
-    justify-content: flex-start;
+    flex-flow:column nowrap;
+    align-items:flex-start;
 }
 input.caixa{
     padding: 10px;
@@ -81,11 +84,29 @@ input.caixa{
     border-radius: 20px;
     border: none;
 }
+input.chec{
+    margin: 5px;
+}
+label.nome{
+   margin: 5px;
+  
+}
 input#botao{
-    width: 90%;
+    width: 80%;
     padding: 5px;
     border-radius: 20px;
     background-color: blue;
     color: white;
+    border: none;
+}
+div#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    margin: 5px;
+}
+a{
+    margin: 10px;
 }
 
